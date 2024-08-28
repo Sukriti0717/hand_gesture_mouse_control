@@ -15,7 +15,10 @@ This project implements a hand gesture-based control system using a webcam to tr
 - PyAutoGUI: A library for automating mouse and keyboard actions, used to simulate mouse clicks and keystrokes.
 - math: Python's built-in mathematical functions used for various calculations within the project.
 
-#How It Works
+# How It Works
 - Hand Detection: MediaPipe is used to detect and track hand landmarks in real-time through the webcam.
 - Gesture Recognition: Specific hand gestures are recognized based on the position and orientation of the hand, and these gestures are mapped to different control actions.
 - Control Functions: The recognized gestures trigger functions such as adjusting brightness, controlling the mouse, typing on the virtual keyboard, and adjusting volume.
+
+  
+
